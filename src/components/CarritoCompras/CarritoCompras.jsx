@@ -35,7 +35,7 @@ export const CarritoCompras = () =>{
                     <tr>
                         <th>#</th>
                         <th>Nombre articulo</th>
-                        <th>Precio</th>
+                        <th>valor</th>
                         <th>Cantidad</th>
                       
                     </tr>
