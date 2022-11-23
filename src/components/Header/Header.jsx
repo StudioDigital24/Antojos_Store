@@ -9,10 +9,15 @@ import { DataContext } from '../../Context/DataProvider';
 import CategoriaModels from '../models/CategoriaModels';
 
 
+
 export const Header = () =>{
     const Titulo = "Antojos Store";
     const provider = useContext(DataContext);
+<<<<<<< HEAD
     const categorias=CategoriaModels();
+=======
+   
+>>>>>>> 7912b5048d7c96936a627033a1b29ec923cffd48
     return (
         <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -38,6 +43,7 @@ export const Header = () =>{
             <li className="nav-item">
               <Link className='nav-link' to="/carrito">Lista Ventas</Link>
             </li>
+<<<<<<< HEAD
             <li className="nav-item dropdown">
               <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Categorias
@@ -50,6 +56,9 @@ export const Header = () =>{
                 }
               </ul>
             </li>
+=======
+           
+>>>>>>> 7912b5048d7c96936a627033a1b29ec923cffd48
           </ul>
          
           <box-icon name='log-out'></box-icon>
