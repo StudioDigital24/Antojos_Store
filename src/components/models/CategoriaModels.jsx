@@ -39,7 +39,6 @@ const CategoriaModels=()=>{
     nombre:'Jardineria',
     imagen:'https://http2.mlstatic.com/D_NQ_NP_2X_931093-MCO50196973506_062022-F.webp'
 
-
 }
 
 
